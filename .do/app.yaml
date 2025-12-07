@@ -1,0 +1,2 @@
+build_command: "pnpm install --frozen-lockfile && pnpm build"
+run_command: "pnpm start -- -p $PORT"
