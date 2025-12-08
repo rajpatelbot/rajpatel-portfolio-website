@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /var/www/raj-portfolio
+            cd /home/deploy/var/www/raj-portfolio
             git pull origin master
             npm install
             npm run build
