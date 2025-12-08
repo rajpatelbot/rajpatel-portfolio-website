@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Full Stack Developer",
   subtitle: "React • Next.js • Express.js • TypeScript",
   tagline:
-    "Building high-performance, scalable, and user-friendly web applications with modern JavaScript technologies.",
+    "Building high-performance, scalable, and user-friendly applications with modern JavaScript technologies.",
   email: "rajpatel158g@gmail.com",
   location: "Ahmedabad, India",
   username: "rajpatelbot",
@@ -14,7 +14,7 @@ export const personalInfo = {
 export const aboutData = {
   yearsExperience: "3+",
   description: [
-    "I'm a passionate Full Stack Developer with over 3 years of professional experience crafting digital experiences. My expertise lies at the intersection of beautiful UI craftsmanship and robust backend architecture.",
+    "I'm a Full Stack Developer with over 3 years of experience crafting digital experiences. My expertise in to create applications and robust backend architecture.",
     "I built real-time systems, secure authentication systems, video processing workflows, chatbots and seamless cloud integrations.",
     "Every project I undertake is driven by a commitment to clean code, optimal performance, and good user experience.",
   ],
@@ -28,12 +28,11 @@ export const experienceData = [
     description: "Building scalable web and mobile applications with modern JavaScript technologies.",
     achievements: [
       "Developed real-time WebSocket chat platform enabling seamless communication",
-      "Built applications using React, Next.js, React Native, and TypeScript",
+      "Built applications using javascript technologies",
       "Integrated AWS S3, Google Maps, and Service Worker for enhanced functionality",
-      "Implemented secure authentication systems with OTP/TOTP verification",
+      "Implemented secure authentication systems with 2 factor authentication",
       "Led codebase optimization and TypeScript migration initiatives",
       "Created video trimming & annotation system achieving 50% efficiency gain",
-      "Collaborated in Agile environment ensuring timely delivery",
     ],
   },
   {
@@ -75,7 +74,7 @@ export const services = [
     title: "Frontend Development",
     shortCode: "FD",
     description:
-      "UI engineering, responsive design, real-time interfaces, and expertise in the React/Next.js ecosystem.",
+      "UI engineering, responsive design and expertise in the React/Next.js ecosystem.",
     icon: "layout",
   },
   {
@@ -87,13 +86,13 @@ export const services = [
   {
     title: "Mobile App Development",
     shortCode: "MAD",
-    description: "React Native apps with BLE integrations, delivering smooth and performant mobile experiences.",
+    description: "React Native apps, delivering smooth and performant mobile experiences.",
     icon: "smartphone",
   },
   {
     title: "Cloud Integration & Deployment",
     shortCode: "CID",
-    description: "AWS S3, scalable deployments, CI/CD pipelines, and performance tuning for production applications.",
+    description: "AWS S3, deployments, CI/CD pipelines and docker setup for production applications.",
     icon: "cloud",
   },
 ]

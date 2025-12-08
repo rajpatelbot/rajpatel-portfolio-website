@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { navLinks } from "@/lib/data"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,10 +41,10 @@ export function Navbar() {
         scrolled ? "bg-background/90 backdrop-blur-md border-b border-border" : "bg-transparent",
       )}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between h-16">
           <Link href="#home" className="text-xl font-bold text-primary">
-            RP<span className="text-foreground">.</span>
+            <Image src="/RajPatel.png" alt="Logo" width={30} height={30} className="rounded-full" />
           </Link>
 
           {/* Desktop Navigation */}
