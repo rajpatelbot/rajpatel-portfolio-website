@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "Raj Patel | Full Stack Developer - rajpatelbot",
   description:
     "Full Stack Developer specializing in React, Next.js, Express.js & TypeScript. Building high-performance, scalable web applications. rajpatelbot",
+  icons: {
+    icon: "/RajPatel.png",
+    shortcut: "/RajPatel.png",
+    apple: "/RajPatel.png",
+  },
   keywords: ["Full Stack Developer", "React", "Next.js", "TypeScript", "Express.js", "rajpatelbot", "Raj Patel"],
   authors: [{ name: "Raj Patel" }],
   openGraph: {

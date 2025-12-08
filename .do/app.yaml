@@ -1,7 +1,0 @@
-spec:
-  name: portfolio
-  services:
-    - name: web
-      run_command: "pnpm start -- -p $PORT"
-      build_command: "pnpm install --frozen-lockfile && pnpm build"
-      http_port: 8080

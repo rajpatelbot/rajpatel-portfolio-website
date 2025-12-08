@@ -1,3 +1,4 @@
+
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/sections/hero"
 import { AboutSection } from "@/components/sections/about"
@@ -8,6 +9,7 @@ import { ProjectsSection } from "@/components/sections/projects"
 import { ContactSection } from "@/components/sections/contact"
 import { Footer } from "@/components/footer"
 import { Toaster } from "@/components/ui/toaster"
+import GithubContributions from "@/components/sections/github-contributions"
 
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
       <AboutSection />
       <ExperienceSection />
       <TechStackSection />
+      <GithubContributions />
       <ServicesSection />
       <ProjectsSection />
       <ContactSection />
