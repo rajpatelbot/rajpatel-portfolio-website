@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Full Stack Developer",
   subtitle: "React • Next.js • Express.js • TypeScript",
   tagline:
-    "Building high-performance, scalable, and user-friendly applications with modern JavaScript technologies.",
+    "Building high-performance, scalable, and user-friendly applications with modern JavaScript technologies",
   email: "rajpatel158g@gmail.com",
   location: "Ahmedabad, India",
   username: "rajpatelbot",
@@ -14,7 +14,7 @@ export const personalInfo = {
 export const aboutData = {
   yearsExperience: "3+",
   description: [
-    "I'm a Full Stack Developer with over 3 years of experience crafting digital experiences. My expertise in to create applications and robust backend architecture.",
+    "I'm a Full Stack Developer with over 3 years of experience building digital experiences. My expertise in to create applications and robust backend architecture.",
     "I built real-time systems, secure authentication systems, video processing workflows, chatbots and seamless cloud integrations.",
     "Every project I undertake is driven by a commitment to clean code, optimal performance, and good user experience.",
   ],
