@@ -1,0 +1,37 @@
+name: Deploy Portfolio Frontend
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - "**"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Deploy by ssh
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /var/www/raj-portfolio
+            git pull origin master
+            npm install
+            npm run build
+
+            # check if pm2 process is running, if not start it
+            if pm2 list | grep -q 'portfolio'; then
+                pm2 restart portfolio
+            else
+                pm2 start npm --name "portfolio" -- start
+            fi
+
+            pm2 list
